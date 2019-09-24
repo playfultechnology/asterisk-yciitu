@@ -15,6 +15,6 @@ In terms of the implementation of the game mechanics, I was inspired by classic 
 Robert Abbott created a "real-world" analogue version of such a multistate maze on which this game is also heavily inspired, which is described here: http://www.logicmazes.com/bur.html 
 
 # Need a Hint?
-Hint #1: Use pen and paper to map out the "route" taken between departments
-Hint #2: Take note not only of the department to which you are currently on hold, but also the department *from which you were transferred* to get there
-Hint #3: The optimal solution requires only 5 button presses from the initial call being made
+ - Hint #1: Use pen and paper to map out the "route" taken between departments
+ - Hint #2: Take note not only of the department to which you are currently on hold, but also the department *from which you were transferred* to get there
+ - Hint #3: The optimal solution requires only 5 button presses from the initial call being made
