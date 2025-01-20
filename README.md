@@ -25,4 +25,8 @@ Robert Abbott created a "real-world" analogue version of such a multistate maze 
 
 # Installation
 1. Install Debian OS, Asterisk, and FreePBX as per the instructions at https://github.com/playfultechnology/RasPBX
-2. Copy `extensions_custom.conf` and `extensions_yciitu.conf` to `/etc/asterisk/`
+2. Use WinSCP to login to the Raspberry Pi as root user (root:raspberry)
+3. Copy `extensions_custom.conf` to `/etc/asterisk/`
+4. Copy `extensions_yciitu.conf` to `/etc/asterisk/`
+5. Copy contents of `souds/en/custom/yciitu` to `/var/lib/asterisk/sounds/en` 
+6. Use PuTTY to reload dialplan `rasterisk –rx 'dialplan reload'`  (or, you can do this via the FreePBX GUI by going `Settings-> Advanced -> Leave Reload Bar Up` and then hitting `Apply Config`)
