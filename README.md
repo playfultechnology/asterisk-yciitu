@@ -22,3 +22,7 @@ Robert Abbott created a "real-world" analogue version of such a multistate maze 
  - Hint #1: Use pen and paper to map out the "route" taken between departments
  - Hint #2: Take note not only of the department to which you are currently on hold, but also the department *from which you were transferred* to get there
  - Hint #3: The optimal solution requires only 5 button presses from the initial call being made
+
+# Installation
+1. Install Debian OS, Asterisk, and FreePBX as per the instructions at https://github.com/playfultechnology/RasPBX
+2. Copy `extensions_custom.conf` and `extensions_yciitu.conf` to `/etc/asterisk/`
