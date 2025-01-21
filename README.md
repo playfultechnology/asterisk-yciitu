@@ -30,3 +30,7 @@ Robert Abbott created a "real-world" analogue version of such a multistate maze 
 4. Copy `extensions_yciitu.conf` to `/etc/asterisk/`
 5. Copy contents of `souds/en/custom/yciitu` to `/var/lib/asterisk/sounds/en` 
 6. Use PuTTY to reload dialplan `rasterisk –rx 'dialplan reload'`  (or, you can do this via the FreePBX GUI by going `Settings-> Advanced -> Leave Reload Bar Up` and then hitting `Apply Config`)
+
+# Editing the game
+1.) All game logic is contained in `extensions_yciitu.conf`
+2.) https://g711.org is a useful resource for converting audio into the appropriate format for Asterisk to play
